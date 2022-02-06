@@ -1,0 +1,32 @@
+.nav-wrapper {
+    padding: 0px 20px;
+}
+
+.content {
+    padding: 20px 0px;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.movie-img {
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.btn-search {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+}
+
+.filter-list {
+    display: block;
+}
+
+.input-radio {
+    margin-right: 2rem;
+}
